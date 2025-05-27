@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 2rem;
+  background-color: rgb(172, 97, 0);
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.card {
+  background-color: rgb(255, 235, 137);
+  width: 300px;
+  height: auto;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
